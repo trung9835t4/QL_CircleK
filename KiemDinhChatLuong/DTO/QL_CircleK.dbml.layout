@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.625, 8.5" name="QL_CircleK">
+  <DataContextMoniker Name="/QL_CircleKDataContext" />
+  <nestedChildShapes>
+    <classShape Id="93b79e41-02dd-4e05-b164-e5cb48701de3" absoluteBounds="6.25, 1.25, 2, 1.4694238504767421">
+      <DataClassMoniker Name="/QL_CircleKDataContext/CHITIETHOADON" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4ce31dcd-be86-438a-b909-61e58fcb8321" absoluteBounds="6.265, 1.71, 1.9700000000000002, 0.90942385047674179" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4d1540c2-41b3-4134-8976-34354f10a301" absoluteBounds="0.75, 0.875, 2, 2.101748084127903">
+      <DataClassMoniker Name="/QL_CircleKDataContext/NhanVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e1c98e7-2976-4fa1-b39c-74860dc4031a" absoluteBounds="0.765, 1.335, 1.9700000000000002, 1.541748084127903" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="94d4236d-d47c-4afa-ae21-1c04ffb59998" absoluteBounds="3.5, 4, 2, 1.8909733395775152">
+      <DataClassMoniker Name="/QL_CircleKDataContext/HangHoa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5fd9717e-c17c-40a3-8a63-9b01360b6e37" absoluteBounds="3.515, 4.46, 1.9700000000000002, 1.3309733395775159" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="218ee625-465e-4c87-8e9a-0d8dee5bd54f" absoluteBounds="3.5, 1.125, 2, 1.6801985950271285">
+      <DataClassMoniker Name="/QL_CircleKDataContext/HOADON" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7016106a-6b05-43d6-a1d2-eab5d77fdb50" absoluteBounds="3.515, 1.585, 1.9700000000000002, 1.1201985950271287" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="15bd7c91-e0fc-4437-b3a5-04e174fe980a" absoluteBounds="0.75, 4.375, 2, 1.2586491059263558">
+      <DataClassMoniker Name="/QL_CircleKDataContext/LoaiHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a8644e39-4ef2-4360-ba95-6e907f2de197" absoluteBounds="0.765, 4.835, 1.9700000000000002, 0.69864910592635465" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 4.94548666978876); (7.25 : 4.94548666978876); (7.25 : 2.71942385047674)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QL_CircleKDataContext/HangHoa/HangHoa_CHITIETHOADON" />
+      <nodes>
+        <classShapeMoniker Id="94d4236d-d47c-4afa-ae21-1c04ffb59998" />
+        <classShapeMoniker Id="93b79e41-02dd-4e05-b164-e5cb48701de3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 1.98471192523837); (6.25 : 1.98471192523837)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QL_CircleKDataContext/HOADON/HOADON_CHITIETHOADON" />
+      <nodes>
+        <classShapeMoniker Id="218ee625-465e-4c87-8e9a-0d8dee5bd54f" />
+        <classShapeMoniker Id="93b79e41-02dd-4e05-b164-e5cb48701de3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.96509929751356); (3.5 : 1.96509929751356)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QL_CircleKDataContext/NhanVien/NhanVien_HOADON" />
+      <nodes>
+        <classShapeMoniker Id="4d1540c2-41b3-4134-8976-34354f10a301" />
+        <classShapeMoniker Id="218ee625-465e-4c87-8e9a-0d8dee5bd54f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.00432455296318); (3.5 : 5.00432455296318)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QL_CircleKDataContext/LoaiHang/LoaiHang_HangHoa" />
+      <nodes>
+        <classShapeMoniker Id="15bd7c91-e0fc-4437-b3a5-04e174fe980a" />
+        <classShapeMoniker Id="94d4236d-d47c-4afa-ae21-1c04ffb59998" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9453df4d-2c3d-475b-955d-7d3ce87e26fb" absoluteBounds="9.375, 1, 2, 1.8909733395775157">
+      <DataClassMoniker Name="/QL_CircleKDataContext/ViewHangHoa_LoaiHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="35a0d4b3-45a6-44dd-98ff-2af89d75d923" absoluteBounds="9.39, 1.46, 1.9700000000000002, 1.3309733395775159" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

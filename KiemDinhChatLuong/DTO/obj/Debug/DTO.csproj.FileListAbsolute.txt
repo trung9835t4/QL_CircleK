@@ -1,0 +1,10 @@
+D:\Work_Space\KiemDinhChatLuong\KiemDinhChatLuong\DTO\bin\Debug\DTO.dll
+D:\Work_Space\KiemDinhChatLuong\KiemDinhChatLuong\DTO\bin\Debug\DTO.pdb
+D:\Work_Space\KiemDinhChatLuong\KiemDinhChatLuong\DTO\obj\Debug\DTO.dll
+D:\Work_Space\KiemDinhChatLuong\KiemDinhChatLuong\DTO\obj\Debug\DTO.pdb
+D:\Work_Space\KiemDinhChatLuong\KiemDinhChatLuong\DTO\bin\Debug\DTO.dll.config
+D:\Work_Space\KiemDinhChatLuong\DoAn\KiemDinhChatLuong\DTO\bin\Debug\DTO.dll.config
+D:\Work_Space\KiemDinhChatLuong\DoAn\KiemDinhChatLuong\DTO\bin\Debug\DTO.dll
+D:\Work_Space\KiemDinhChatLuong\DoAn\KiemDinhChatLuong\DTO\bin\Debug\DTO.pdb
+D:\Work_Space\KiemDinhChatLuong\DoAn\KiemDinhChatLuong\DTO\obj\Debug\DTO.dll
+D:\Work_Space\KiemDinhChatLuong\DoAn\KiemDinhChatLuong\DTO\obj\Debug\DTO.pdb
